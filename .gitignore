@@ -1,0 +1,18 @@
+/.idea
+.DS_Store
+/vendor
+/composer.lock
+/composer.phar
+/admin/runtime
+/admin/web/assets
+/console/runtime
+/frontend/runtime
+/frontend/web/assets
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
