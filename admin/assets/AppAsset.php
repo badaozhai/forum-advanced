@@ -11,7 +11,7 @@
  * @created 14-3-3 下午6:02
  */
 
-namespace adminpanel\assets;
+namespace admin\assets;
 
 
 use yii\web\AssetBundle;
@@ -20,7 +20,7 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    public $css = [];
+    public $css = ['css/site.css'];
     public $js = [];
     public $depends = [
         'yii\web\YiiAsset',

@@ -20,7 +20,7 @@ $config = [
 
     'components.db' => [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+        'dsn' => 'mysql:host=localhost;dbname=forum',
         'username' => 'root',
         'password' => '123456',
         'charset' => 'utf8',
