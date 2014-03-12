@@ -13,6 +13,7 @@ use yii\web\VerbFilter;
 
 class AdminController extends Controller
 {
+
     public function behaviors()
     {
         return [

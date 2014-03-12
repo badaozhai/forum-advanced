@@ -20,10 +20,17 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    public $css = ['css/site.css'];
-    public $js = [];
+    public $css = [
+        'font-awesome/css/font-awesome.css',
+        'css/base.css',
+    ];
+    public $js = [
+        'js/plugins/jquery.metisMenu.js',
+        'js/base.js'
+    ];
     public $depends = [
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapAsset',
+        'admin\assets\BootAsset'
     ];
 } 

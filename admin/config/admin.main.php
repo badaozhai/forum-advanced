@@ -7,8 +7,7 @@ $web = array_merge(
 );
 
 return [
-    'id' => 'app-backend',
-    'name' => 'Yiier社区后台管理',
+    'id' => 'Yiier社区后台管理',
     'basePath' => dirname(__DIR__),
     'vendorPath' => $rootDir . '/vendor',
     'preload' => $web['preload'],
