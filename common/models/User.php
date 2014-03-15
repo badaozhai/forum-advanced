@@ -67,6 +67,11 @@ class User extends ActiveRecord implements IdentityInterface
 		return static::find(['username' => $username, 'status' => static::STATUS_ACTIVE]);
 	}
 
+    public static function findIdentityByAccessToken($token)
+    {
+
+    }
+
 	/**
 	 * @return int|string current user ID
 	 */

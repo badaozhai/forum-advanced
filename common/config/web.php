@@ -8,7 +8,7 @@ Yii::setAlias('console', realpath(__DIR__ . '/../../console'));
 $config = [
     'adminEmail' => 'admin@example.com',
     'supportEmail' => 'support@example.com',
-
+    'language' => 'zh-CN',
     'components.cache' => [
         'class' => 'yii\caching\FileCache',
     ],
@@ -20,7 +20,7 @@ $config = [
 
     'components.db' => [
         'class' => 'yii\db\Connection',
-        'dsn' => 'mysql:host=localhost;dbname=forum',
+        'dsn' => 'mysql:host=localhost;dbname=forum-advanced',
         'username' => 'root',
         'password' => '123456',
         'charset' => 'utf8',
